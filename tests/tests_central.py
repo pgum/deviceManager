@@ -1,5 +1,5 @@
 import unittest
-from central.main import Hauser as sut
+from central.central import Central as sut
 
 class DeviceMock():
     def doStuff(self):

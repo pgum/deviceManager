@@ -1,4 +1,4 @@
-class Hauser:
+class Central:
     def __init__(self):
         self._devices={
                 'self'   : self}
