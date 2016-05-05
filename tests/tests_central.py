@@ -6,7 +6,6 @@ class DeviceMock():
         return "Doing Stuff"
     def doExceptionalStuff(self, exceptionType):
         raise exceptionType
-
     def doStuffWithArgs(self, **kwargs):
         return kwargs
 
